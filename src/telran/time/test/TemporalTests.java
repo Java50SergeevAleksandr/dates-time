@@ -49,7 +49,7 @@ class TemporalTests {
 		LocalDate expected1 = LocalDate.of(2023, 10, 13);
 		LocalDate expected2 = LocalDate.of(2024, 9, 13);
 		assertEquals(expected1, ld.with(adjuster));
-		assertEquals(expected2, expected1.with(adjuster));
+		assertEquals(expected2, expected1.with(adjuster));		
 	}
 
 }
